@@ -1,4 +1,4 @@
-## Functions
+
 
 ### `area(a, b)`
 
