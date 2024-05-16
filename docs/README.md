@@ -1,46 +1,49 @@
+# Geometric Calculator
+В этом репозитории представлен набор тестов для классов Python, вычисляющих различные параметры геометрических фигур.
+
+## Классы и тестирующие функции
+
+### Класс `CircleTests`
+* `test_area_zero_mul` Проверка вычисления площади круга с радиусом 0 :heavy_check_mark:
+* `test_area_five_mul` Проверка вычисления площади круга с радиусом 5 :heavy_check_mark:
+* `test_area_eleven_mul` Проверка вычисления площади круга с радиусом 11 :heavy_check_mark:
+* `test_length_zero_mul` Проверка вычисления длины круга с радиусом 0 :heavy_check_mark:
+* `test_length_five_mul` Проверка вычисления длины круга с радиусом 5 :heavy_check_mark:
+* `test_length_eleven_mul` Проверка вычисления длины круга с радиусом 11 :heavy_check_mark:
+
+   **Общее время прохождения тестов: 0.018s**
+
+### Класс `TriangleTests`
+* `test_area_zero_mul` Проверка вычисления площади треугольника со стороной 0 и высотой 0 :heavy_check_mark:
+* `test_area_ten_five_mul` Проверка вычисления площади треугольника со стороной 10 и высотой 5 :heavy_check_mark:
+* `test_area_eleven_thousand_mul` Проверка вычисления площади треугольника со стороной 11 и высотой 1000 :heavy_check_mark:
+* `test_perimeter_zero_add` Проверка вычисления периметра треугольника со сторонами 0 :heavy_check_mark:
+* `test_perimeter_two_five_three_add` Проверка вычисления периметра треугольника со сторонами 2, 5, 3 :heavy_check_mark:
+* `test_perimeter_one_ten_eleven_add` Проверка вычисления периметра треугольника со сторонами 1, 10, 11 :heavy_check_mark:
+
+  **Общее время прохождения тестов: 0.005s**
+
+### Класс `SquareTests`
+* `test_area_zero_mul` Проверка вычисления площади квадрата со стороной 0 :heavy_check_mark:
+* `test_area_ten_mul` Проверка вычисления площади квадрата со стороной 10 :heavy_check_mark:
+* `test_area_twelve_mul` Проверка вычисления площади квадрата со стороной 12 :heavy_check_mark:
+* `test_perimeter_zero_mul` Проверка вычисления периметра квадрата со стороной 0 :heavy_check_mark:
+* `test_perimeter_eleven_mul` Проверка вычисления периметра квадрата со стороной 11 :heavy_check_mark:
+* `test_perimeter_thousand_mul` Проверка вычисления периметра квадрата со стороной 1000 :heavy_check_mark:
+
+  **Общее время прохождения тестов: 0.005s**
+
+### Класс `RectangleTests`
+* `test_area_zero_mul` Проверка вычисления площади прямоугольника со сторонами 0, 0 :heavy_check_mark:
+* `test_area_ten_one_mul` Проверка вычисления площади прямоугольника со сторонами 10, 1 :heavy_check_mark:
+* `test_area_thousand_three_mul` Проверка вычисления площади прямоугольника со сторонами 1000, 3 :heavy_check_mark:
+* `test_length_zero_add` Проверка вычисления периметра прямоугольника со сторонами 0, 0 :heavy_check_mark:
+* `test_length_two_five_add` Проверка вычисления периметра прямоугольника со сторонами 2, 5 :heavy_check_mark:
+* `test_length_ten_eleven_add` Проверка вычисления периметра прямоугольника со сторонами 10, 11 :heavy_check_mark:
+
+  **Общее время прохождения тестов: 0.006s**
+
+### *Все тесты прошли проверку OK*
 
 
-### `area(a, b)`
 
-Calculates the area of a rectangle based on its two sides `a` and `b`.
-
-#### Parameters
-
-* `a` (int): The length of one side of the rectangle.
-* `b` (int): The length of the other side of the rectangle.
-
-#### Returns
-
-* `area` (int): The area of the rectangle.
-
-### `perimeter(a, b)`
-
-Calculates the perimeter of a rectangle based on its two sides `a` and `b`.
-
-#### Parameters
-
-* `a` (int): The length of one side of the rectangle.
-* `b` (int): The length of the other side of the rectangle.
-
-#### Returns
-
-* `perimeter` (int): The perimeter of the rectangle.
-
-## Examples
-
-Here are some examples of how to use the functions:
-
-
-> area(3, 4)\
-`>>>`12
-
-> perimeter(3, 4)\
-`>>>`14
-
-## Commit History
-| Commit Hash | Commit Message |
-| --- | --- |
-| 05b28e7 | add declarations on functions in rectangle.py and triangle.py |
-| 125c0b0 | add declaration on functions in square.py |
-| d0cf959 | add declaration on functions in circle.py |
-| 649526c | add docs catalog, add docs/README.md file |
