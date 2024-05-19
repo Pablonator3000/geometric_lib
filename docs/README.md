@@ -44,3 +44,6 @@ Here are some examples of how to use the functions:
 | 125c0b0 | add declaration on functions in square.py |
 | d0cf959 | add declaration on functions in circle.py |
 | 649526c | add docs catalog, add docs/README.md file |
+
+
+
