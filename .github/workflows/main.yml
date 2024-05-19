@@ -1,0 +1,26 @@
+name: geometric tests
+
+on:
+  push:
+    branches: [ "*" ]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+        - uses: actions/checkout@v3
+        - name: Set up Python 3.12
+          uses: actions/setup-python@v3
+          with:
+            python-version: "3.12"
+        - name: unittests
+          run: |
+            python -m unittest CircleTests.py 
+            python -m unittest RectangleTests.py
+            python -m unittest SquareTests.py
+            python -m unittest TriangleTests.py
