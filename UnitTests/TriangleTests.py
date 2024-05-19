@@ -1,6 +1,7 @@
 import triangle
 import unittest
 
+
 class TriangleTests(unittest.TestCase):
 
     def test_area_zero_mul(self):

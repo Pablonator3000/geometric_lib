@@ -14,7 +14,7 @@ class SquareTests(unittest.TestCase):
 
     def test_area_twelve_mul(self):
         res = square.area(12)
-        self.assertEqual(12, res)
+        self.assertEqual(12 * 12, res)
 
     def test_perimeter_zero_mul(self):
         res = square.perimeter(0)
