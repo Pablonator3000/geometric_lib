@@ -20,7 +20,8 @@ jobs:
             python-version: "3.12"
         - name: unittests
           run:
-            python -m unittestCircleTests.py 
+            python -m unittest CircleTests.py 
             python -m unittest RectangleTests.py
             python -m unittest SquareTests.py
             python -m unittest TriangleTests.py
+
