@@ -22,5 +22,6 @@ def perimeter(a, b):
         Возвращаемое значение:
             perimetr (int): периметр прямоугольника
     '''
-    return 2 * (a + b) 
+    return 2 * (a + b)
+
 
